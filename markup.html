@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#188de7">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+    <title>Master Tao</title>
+    <link rel="icon" href="assets/img/favicon.icon.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/hamburgers.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <a href="markup.html" style="position: fixed;bottom: 16px;left: 28px; z-index: 1000;">markup</a> -->
+
+    <header class="header-page">
+        <div class="header_container">
+            <a href="index.html">
+            <img class="logo img-fluid" src="assets/img/logo.svg" alt="logo">
+        </a>
+            <div class="nav_section">
+                <nav class="nav_list">
+                    <a href="#calculation">Цены и сроки</a>
+                    <a href="#services">Услуги</a>
+                    <a href="#about">О компании</a>
+                    <a href="#contact">Контакты</a>
+                    <a href="#calculation">Оформить груз</a>
+                </nav>
+                <button type="button" class="btn btn-primary nav_btn">Оставить заявку</button>
+            </div>
+            <button id="burger" class="hamburger hamburger--spin" type="button">
+                <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </header>
+    <main class="wrapper markup-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="markup__color_container">
+                        <h3 class="markup__title">1. Colors</h3>
+                        <ul>
+                            <li class="color__item color__item_1"></li>
+                            <li class="color__item color__item_2"></li>
+                            <li class="color__item color__item_3"></li>
+                            <li class="color__item color__item_4"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="markup__text_container">
+                        <h3 class="markup__title">2. Цвет текста, шрифт bold, шрифт italic, link, ::selection</h3>
+                        <p><a href="#">Lorem ipsum dolor</a><b> Ipsum debitis doloremque, consequuntur nisi placeat modi officiis libero aliquam obcaecati facilis vero iste!</b><i>reiciendis modi quae aliquam doloribus cupiditate accusamus eos sed culpa est voluptates deleniti consequuntur.</i> Consectetur nemo tenetur esse ipsam excepturi, possimus voluptatibus </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="markup__ol_container">
+                        <h3 class="markup__title">3. Нумерованый список</h3>
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="markup__ul_container">
+                        <h3 class="markup__title">4. Маркерованый список</h3>
+                        <ul class="custom_li">
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="markup__font_container">
+                        <h3 class="markup__title">5. Font family</h3>
+                        <p>"Proxima Nova"</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="markup__font-weight_container">
+                        <h3 class="markup__title">6. Font weight</h3>
+                        <ol>
+                            <li class="fw_300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius maxime atque nihil?</li>
+                            <li class="fw_400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius maxime atque nihil?</li>
+                            <li class="fw_600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius maxime atque nihil?</li>
+                            <li class="fw_700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius maxime atque nihil?</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="markup__title_container">
+                        <h3 class="markup__title">7. Titles</h3>
+                        <h1>Lorem ipsum dolor sit</h1>
+                        <h2>Lorem ipsum dolor sit</h2>
+                        <h3>Lorem ipsum dolor sit</h3>
+                        <h4>Lorem ipsum dolor sit</h4>
+                        <h5>Lorem ipsum dolor sit</h5>
+                        <h6>Lorem ipsum dolor sit</h6>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="markup__title-style_container">
+                        <h3 class="markup__title">8. Titles style</h3>
+                        <h1 class="h1">Lorem ipsum dolor sit</h1>
+                        <h2 class="h2">Lorem ipsum dolor sit</h2>
+                        <h3 class="h3">Lorem ipsum dolor sit</h3>
+                        <h4 class="h4">Lorem ipsum dolor sit</h4>
+                        <h5 class="h5">Lorem ipsum dolor sit</h5>
+                        <h6 class="h6">Lorem ipsum dolor sit</h6>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="markup__checkbox_container">
+                        <h3 class="markup__title">9. Checkbox, radiobutton</h3>
+                        <div>
+                            <div>
+                                <input type="checkbox" id="checkbox_one">
+                                <label for="checkbox_one">Lorem, ipsum dolor</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="checkbox_two">
+                                <label for="checkbox_two">Lorem, ipsum dolor</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="checkbox_three">
+                                <label for="checkbox_three">Lorem, ipsum dolor</label>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <div>
+                                <input type="radio" id="email" name="contact" value="email">
+                                <label for="email">Email</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="linkedin" name="contact" value="linkedin">
+                                <label for="linkedin">Linkedin</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="telegram" name="contact" value="telegram">
+                                <label for="telegram">Telegram</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="markup__buttons_container">
+                        <h3 class="markup__title">10. Buttons</h3>
+                        <button type="button" class="btn btn-primary">Оставить заявку</button>
+                        <button type="button" class="btn btn-secondary">Подробнее</button>
+                        <button type="button" class="btn btn-primary btn-lg">Оставить заявку</button>
+                        <button type="button" class="btn btn-primary btn-lg">Отправить запрос<img src="assets/img/btn_arrow.svg" class="icon"></button>
+                        <button type="button" class="btn btn-primary btn-lg">Следующий шаг<img src="assets/img/btn_arrow.svg" class="icon"></button>
+                        <button type="button" class="btn btn-primary btn-lg">Рассчитать стоимость<img src="assets/img/btn_arrow.svg" class="icon"></button>
+                        <button type="button" class="btn btn-primary btn-lg">Оформить груз<img src="assets/img/btn_arrow.svg" class="icon"></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="markup__fancybox_container">
+                        <h3 class="markup__title">11. Fancybox</h3>
+                        <a href="https://fastly.picsum.photos/id/983/1700/1000.jpg?grayscale&hmac=eI5nIQG0xGbBUsVPAizrD1k2FQyg54kCo6tqErG_LvQ" data-fancybox data-caption="Single image">
+                    <img class="img-fluid" src="https://fastly.picsum.photos/id/983/1700/1000.jpg?grayscale&hmac=eI5nIQG0xGbBUsVPAizrD1k2FQyg54kCo6tqErG_LvQ"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="contact" class="footer-page">
+        <div class="container">
+            <div class="contact_container">
+                <div class="footer_column">
+                    <a href="index.html">
+                    <img class="logo img-fluid" src="assets/img/logo.svg" alt="logo">
+                </a>
+                    <ul>
+                        <li><a class="phone" href="tel:8(800)600-18-69">8(800)600-18-69</a></li>
+                        <li><a href="mailto: info@cargoasia.info">info@cargoasia.info</a></li>
+                        <li>Адрес в Китае:</li>
+                        <li>浙江省金华市义乌市后宅街道洪华小区5</li>
+                        <li>栋一单元一楼RT789库房 高建军 电话</li>
+                        <li>15966660379</li>
+                    </ul>
+                    <div class="icon_container">
+                        <a class="icon_item">
+                        <img src="assets/img/footer_instagram.svg" alt="instagram">
+                    </a>
+                        <a class="icon_item">
+                        <img src="assets/img/footer_vkontakte.svg" alt="vkontakte">
+                    </a>
+                        <a class="icon_item">
+                        <img src="assets/img/footer_telegram.svg" alt="telegram">
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <div id="footer_nav" class="navigation_container">
+                <div class="footer_column">
+                    <h5>Грузоперевозки</h5>
+                    <ul>
+                        <li><a href="#calculation">Цены и сроки</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#about">О компании</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                        <li><a href="#calculation">Оформить груз</a></li>
+                    </ul>
+                </div>
+                <div class="footer_column">
+                    <h5>Услуги</h5>
+                    <ul>
+                        <li><a data-swiper-transfer="services" href="#products">Выкуп товара</a></li>
+                        <li><a data-swiper-transfer="services" href="#cargo_insurance">Страховка груза</a></li>
+                        <li><a data-swiper-transfer="services" href="#rent">Аренда склада</a></li>
+                        <li><a data-swiper-transfer="services" href="#money_transfer">Перевод денежных средств</a></li>
+                        <!-- <li><a data-swiper-transfer="delivery" href="#auto">Авто - обычная</a></li>
+                    <li><a data-swiper-transfer="delivery" href="#auto_fast">Авто - ускоренная</a></li>
+                    <li><a data-swiper-transfer="delivery" href="#avia">Авиа</a></li>
+                    <li><a data-swiper-transfer="delivery" href="#railway">Ж/д</a></li> -->
+                    </ul>
+                </div>
+                <div class="footer_column">
+                    <h5>Информация</h5>
+                    <ul>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Требования к грузу</a></li>
+                        <li><a href="#">Договор-оферта</a></li>
+                        <li><a href="#">Как заключить договор</a></li>
+                        <li><a href="#">Способы оплаты услуг</a></li>
+                        <li><a href="#">Документы</a></li>
+                        <li><a href="#">Статьи</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
